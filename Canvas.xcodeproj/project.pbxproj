@@ -10,9 +10,9 @@
 		C4AE5EF426769E050050B39D /* CanvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE5EE626769DFB0050B39D /* CanvasApp.swift */; };
 		C4AE5EF526769E050050B39D /* CanvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE5EE626769DFB0050B39D /* CanvasApp.swift */; };
 		C4AE5EF626769E050050B39D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE5EE726769DFB0050B39D /* ContentView.swift */; };
-		C4AE5EF726769E050050B39D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE5EE726769DFB0050B39D /* ContentView.swift */; };
 		C4AE5EF826769E050050B39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AE5EE826769E050050B39D /* Assets.xcassets */; };
 		C4AE5EF926769E050050B39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AE5EE826769E050050B39D /* Assets.xcassets */; };
+		C4AE5F0426769E550050B39D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AE5F0326769E550050B39D /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +21,7 @@
 		C4AE5EE826769E050050B39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4AE5EED26769E050050B39D /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AE5EF326769E050050B39D /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AE5F0326769E550050B39D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		C4AE5EE526769DFB0050B39D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C4AE5F0226769E4C0050B39D /* View */,
 				C4AE5EE626769DFB0050B39D /* CanvasApp.swift */,
 				C4AE5EE726769DFB0050B39D /* ContentView.swift */,
 				C4AE5EE826769E050050B39D /* Assets.xcassets */,
@@ -66,6 +68,14 @@
 				C4AE5EF326769E050050B39D /* Canvas.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C4AE5F0226769E4C0050B39D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4AE5F0326769E550050B39D /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4AE5EF626769E050050B39D /* ContentView.swift in Sources */,
+				C4AE5F0426769E550050B39D /* Home.swift in Sources */,
 				C4AE5EF426769E050050B39D /* CanvasApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AE5EF726769E050050B39D /* ContentView.swift in Sources */,
 				C4AE5EF526769E050050B39D /* CanvasApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
